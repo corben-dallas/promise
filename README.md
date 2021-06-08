@@ -4,3 +4,5 @@
 2. Нажать зеленую кнопку
 
 Основная функция перебора промисов находится в: `scr/tasks/basic.js`
+
+[Ссылка на gh-pages](https://corben-dallas.github.io/promise)
