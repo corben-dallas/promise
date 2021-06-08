@@ -38,6 +38,7 @@ const ButtonsGroup = () => {
 		asyncArr.push(btnValue, () => {
 			setDisplayValue(prev => [...prev, {value: btnValue, id: uuid()}]);
 			setIsDataLoading(false);
+			setResult(null);
 		});
 	}
 
@@ -47,8 +48,6 @@ const ButtonsGroup = () => {
 		setDisplayValue([]);
 		setResult(null);
 	}
-
-	
 
 	const handleCalculateMaxValue = () => {
 		setIsResultLoading(true);

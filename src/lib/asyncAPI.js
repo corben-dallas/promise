@@ -2,7 +2,7 @@ export const API = () => {
     const _wrap = (fn, cb) => {
         setTimeout(() => { 
             cb(fn());
-        }, Math.random() * 1000);
+        }, Math.random() * 200);
     };
     
     class AsyncArray {
