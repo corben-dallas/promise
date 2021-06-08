@@ -1,3 +1,5 @@
+[click here to see](https://corben-dallas.github.io/promise)
+
 Вариант 1. Найти максимальное значение массива.
 
 1. Заполнить масив значениями по кнопкам
